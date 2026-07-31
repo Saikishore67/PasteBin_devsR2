@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Django
+*.log
+local_settings.py
+# db.sqlite3
+# db.sqlite3-journal
+media/
+staticfiles/
+/static/
+
+# Environment variables / secrets
+.env
+.env.local
+.env.*.local
+
+# Migrations (optional — see note below)
+# apps/*/migrations/*.py
+# !apps/*/migrations/__init__.py
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Testing / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Docker
+*.pid
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Jupyter (if used for testing/exploring data)
+.ipynb_checkpoints/
+
+# OS files
+Thumbs.db
